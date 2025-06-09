@@ -12,7 +12,6 @@
  *
  * https://refactoring.guru/es/design-patterns/builder
  */
-
 import { COLORS } from "../helpers/colors.ts";
 
 class Computer {
