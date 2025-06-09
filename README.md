@@ -15,16 +15,6 @@ Cada patrón tiene su propia carpeta con los siguientes elementos:
 - Deno
 - TypeScript
 
-## Instalación
-
-```bash
-# Clonar el repositorio
-git clone https://github.com/tu-usuario/patrones-diseno-ts.git
-
-# Entrar al directorio
-cd patrones-diseno-ts
-```
-
 ## 🚀 Ejecución
 
 ```bash
@@ -44,6 +34,8 @@ deno --watch 01-creacionales/01-builder.ts
 ```
 
 ## 📚 Listado de recursos adicionales
+
+<https://github.com/DevTalles-corp/patrones-diseno/tree/01-creacionales-inicio>
 
 - [Refactoring Guru](https://refactoring.guru/es/design-patterns/catalog)
 
