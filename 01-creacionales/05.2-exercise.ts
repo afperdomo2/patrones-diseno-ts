@@ -13,7 +13,6 @@
  2.	Usen el código cliente para probar el funcionamiento de copyWith, 
  haciendo cambios en el puntaje, nivel y nombre del jugador.
  */
-import { COLORS } from "../helpers/colors.ts";
 
 // 1. Clase Player inmutable
 class Player {
