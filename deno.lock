@@ -1,0 +1,36 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@deno-library/logger@*": "1.2.0",
+    "jsr:@deno-library/logger@1.2.0": "1.2.0",
+    "jsr:@std/fmt@1.0.3": "1.0.3",
+    "jsr:@std/fs@^1.0.6": "1.0.18",
+    "jsr:@std/path@^1.1.0": "1.1.0"
+  },
+  "jsr": {
+    "@deno-library/logger@1.2.0": {
+      "integrity": "c6f0371cb2d08c0a7b82d30d494fac5d25f115695c63a3a295c4e35a0e6669a0",
+      "dependencies": [
+        "jsr:@std/fmt",
+        "jsr:@std/fs"
+      ]
+    },
+    "@std/fmt@1.0.3": {
+      "integrity": "97765c16aa32245ff4e2204ecf7d8562496a3cb8592340a80e7e554e0bb9149f"
+    },
+    "@std/fs@1.0.18": {
+      "integrity": "24bcad99eab1af4fde75e05da6e9ed0e0dce5edb71b7e34baacf86ffe3969f3a",
+      "dependencies": [
+        "jsr:@std/path"
+      ]
+    },
+    "@std/path@1.1.0": {
+      "integrity": "ddc94f8e3c275627281cbc23341df6b8bcc874d70374f75fec2533521e3d6886"
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/assert@1"
+    ]
+  }
+}
